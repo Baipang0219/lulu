@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>张路欣 ZHANG LUXIN · 交互式个人简历</title>
+<meta name="description" content="张路欣 ZHANG LUXIN — 网络与新媒体 · 短视频剪辑 / 新媒体运营 / 摄影，交互式双语个人作品简历。">
+<link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Noto+Serif+SC:wght@500;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="progress"></div>
+<div id="app"></div>
+
+<div id="lightbox" class="lb" aria-hidden="true">
+  <button class="lb-close" data-lbclose aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <figure class="lb-fig">
+    <div class="lb-media" id="lbMedia"><img id="lbImg" alt=""></div>
+    <figcaption class="lb-cap" id="lbCap"></figcaption>
+  </figure>
+</div>
+
+<button id="toTop" class="totop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+
+<script src="script.js"></script>
+</body>
+</html>
