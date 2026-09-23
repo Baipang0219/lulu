@@ -308,7 +308,7 @@ zh:{
       {y:"2023",zh:"“传媒印象”摄影大赛《回家》最佳人气奖",en:"\"Best Popularity Award\", Home — Chuanmei Impression Photo Contest"},
       {y:"2023",zh:"“优秀学生干部”",en:"\"Outstanding Student Cadre\""},
       {y:"2024",zh:"“优秀共青团干部”",en:"\"Outstanding CYLC Cadre\""},
-      {y:"2025",zh:"“优秀毕业生”",en:"\"Outstanding Graduate\""}
+      {y:"2025",zh:"“优秀毕业生”",en:"\"Outstanding Graduate\"""}
     ]
   },
   contact:{
@@ -703,11 +703,11 @@ function renderAbout(){
           '<div class="edu-item">'+
             '<div class="edu-head">'+
               '<span class="edu-school">'+e.school+'</span>'+
-              (e.status?'<span class="edu-status">'+e.status+' · '+e.statusEn+'</span>:"")+
+              (e.status?'<span class="edu-status">'+e.status+' · '+e.statusEn+'</span>':"")+
               '<span class="edu-major">'+e.major+' · '+e.majorEn+'</span>'+
               '<span class="edu-period">'+e.period+'</span>'+
             '</div>'+
-            (e.courses?'<div class="edu-courses">'+e.courses.map(c=>'<span>'+c+'</span>').join("")+'</div>:"")+
+            (e.courses?'<div class="edu-courses">'+e.courses.map(c=>'<span>'+c+'</span>').join("</span></span>'+"<span>").join("")+'</div>":"")+
           '</div>'
         ).join("")+
       '</div>'+
@@ -741,7 +741,7 @@ function renderCampus(){
       '<p class="cp-en">'+it.en+'</p>'+
       '<p class="cp-period">'+it.period+'</p>'+
       '<ul>'+it.bullets.map(b=>'<li>'+b[lang]+'<span class="sub">'+b[lang==="zh"?"en":"zh"]+'</span></li>').join("")+'</ul>'+
-      (it.award?'<p class="cp-award"><b>'+it.award+'</b><span class="sub">'+it.awardEn+'</span></p>:"")+
+      (it.award?'<p class="cp-award"><b>'+it.award+'</b><span class="sub">'+it.awardEn+'</span></p>':"")+
     '</div>').join("");
   return '<section class="section" id="campus"><div class="container">'+
     '<div class="sec-head reveal"><div class="sec-no">'+c.no+'</div><h2 class="sec-title">'+c.title+'<em>'+c.en+'</em></h2></div>'+
