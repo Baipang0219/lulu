@@ -190,7 +190,7 @@ zh:{
         title:'《搞不懂的审美，穿不了的女装》数据可视化',
         en:'Unwearable Fashion — Data Visualization',
         desc:'聚焦「女装尺码趋小」议题，以词云、散点、气泡图呈现多维数据洞察，发布于院级官方公众号。',
-        enDesc:'A data-viz feature on shrinking women』s sizing — word clouds, scatter and bubble charts, published on the college official account.',
+        enDesc:'A data-viz feature on shrinking women sizing — word clouds, scatter and bubble charts, published on the college official account.',
         detail:'通过采集平台男女装销量占比、退货原因、话题热度及店铺尺码标注等多维度数据，以词云图、散点图、气泡图等可视化形式，分析「女装尺码趋小」议题及其衍生影响；最终成果发布于院级官方公众号。',
         enDetail:'Collected multi-dimensional data — sales share by gender, return reasons, topic heat and size labeling — and visualized the shrinking-size trend through word clouds, scatter and bubble charts. Published on the college official account.',
         process:'数据采集 → 可视化设计 → 公众号发布',
@@ -210,18 +210,18 @@ zh:{
         role:'导演 / 拍摄 / 后期',
         roleEn:'Director · Cinematography · Editing',
         desc:'聚焦阳泉盂县煤矿产业，以真实镜头记录矿工生活与产业变迁，传递奋斗与希望。',
-        enDesc:'A feature on Yuxian`s coal industry — real footage of miners` lives and industrial transformation, carrying a message of resilience and hope.',
+        enDesc:'A feature on Yuxian coal industry — real footage of miners lives and industrial transformation, carrying a message of resilience and hope.',
         detail:'分三部分呈现：以数据与画面回溯煤矿发展历程；结合玉泉煤业智能化工作人员、「二哈兄弟」及矿工家属访谈强化纪实感；最终展现转型后盂县的崭新面貌。前期梳理网站、政府及行业报告夯实调研基础，赴当地与专业人士深度沟通、实地探访新型达标煤矿，后期独立完成拍摄、脚本、构思与剪辑封装。',
-        enDetail:'Structured in three parts: data-driven history of the coal industry; documentary interviews with smart-mine staff, Erha Brothers and miners` families; and the transformed face of Yuxian. Research drew on government and industry reports, on-site visits to modern mines and interviews with professionals; directing, cinematography, scripting and editing were self-completed.',
+        enDetail:'Structured in three parts: data-driven history of the coal industry; documentary interviews with smart-mine staff, Erha Brothers and miners families; and the transformed face of Yuxian. Research drew on government and industry reports, on-site visits to modern mines and interviews with professionals; directing, cinematography, scripting and editing were self-completed.',
         process:'调研 → 实地探访 → 拍摄剪辑封装',
         enProcess:'Research → On-site visits → Shooting & editing'},
       {id:'yunnan',type:1,img:'yunnan',ref:'作品集 P9',
         title:'H5《云南一方》',
         en:'H5 A Corner of Yunnan',
         desc:'卡通风格、黄绿主色调的长图 H5，带浏览者云游昆明、大理、香格里拉、普洱。',
-        enDesc:'A cartoon-style, yellow-green H5 long-scroll taking viewers through Kunming, Dali, Shangri-La and Pu』s.',
+        enDesc:'A cartoon-style, yellow-green H5 long-scroll taking viewers through Kunming, Dali, Shangri-La and Pu er.',
         detail:'基于大量图片素材分析，采用卡通风格与黄绿主色调，以长图拖动形式呈现。聚焦昆明、大理、香格里拉、普洱等地，通过特色建筑与地道美食吸引浏览者，搭配各地区民族服饰人物引领，普及民族文化认知；辅以简洁文字介绍与实用攻略，帮助用户刷新对云南的印象。',
-        enDetail:'Built from extensive image research, this H5 uses a cartoon style with yellow-green tones and a drag-to-scroll layout. Landmark architecture and local food draw viewers in, ethnic-costume characters guide the journey, and concise intros plus practical tips refresh users` impression of Yunnan.',
+        enDetail:'Built from extensive image research, this H5 uses a cartoon style with yellow-green tones and a drag-to-scroll layout. Landmark architecture and local food draw viewers in, ethnic-costume characters guide the journey, and concise intros plus practical tips refresh users impression of Yunnan.',
         process:'素材分析 → 风格设定 → 长图设计',
         enProcess:'Image research → Style direction → Long-scroll design'},
       {id:'day',type:2,img:'day',ref:'作品集 P10–P11',
@@ -248,14 +248,14 @@ zh:{
         desc:'公路旅行摄影，记录 66 号公路沿线的人文与风景。',
         enDesc:'Road-trip photography along Route 66 — people, roadside life and desert scenery.',
         detail:'沿美国 66 号公路拍摄的旅行摄影，聚焦沿线汽车旅馆、荒漠公路与黄昏光线，呈现公路文化的人文温度。',
-        enDetail:'Shot along America』s Route 66 — motels, desert highways and dusk light, capturing the human warmth of road culture.',
+        enDetail:'Shot along Americas Route 66 — motels, desert highways and dusk light, capturing the human warmth of road culture.',
         process:'公路探访 → 沿途抓拍 → 胶片调色',
         enProcess:'Road trip → On-the-road shooting → Film grading'},
       {id:'monk',type:2,img:'monk',ref:'作品集 P14',
         title:'人文风景 · 僧人街巷',
         en:'Human Landscapes · Monk in the Alley',
         desc:'街头纪实，记录僧袍身影穿行市井街巷的瞬间。',
-        enDesc:'Street documentary — a monk`s robe moving through the bustle of an old-town market street.',
+        enDesc:'Street documentary — a monk robe moving through the bustle of an old-town market street.',
         detail:'街头纪实摄影，以僧人行走于古城街巷为线索，记录市井烟火与人文气息的交融。',
         enDetail:'A street-documentary shot tracing a monk through an old-town alley, blending everyday bustle with human warmth.',
         process:'街巷观察 → 决定性瞬间 → 人文调色',
@@ -350,7 +350,7 @@ en:{
     title:'About Me',
     en:'关于我',
     lead:'An optimistic, energetic post-00s creator with strong communication skills and an eye for detail.',
-    p1:'Passionate about photography, I love capturing life`s beautiful moments and expressing emotion through creativity. I believe passion is part of life — I bring heart into work to make it more meaningful.',
+    p1:'Passionate about photography, I love capturing life beautiful moments and expressing emotion through creativity. I believe passion is part of life — I bring heart into work to make it more meaningful.',
     p2:'I aim to bring fresh ideas and energy to a team through creativity and communication, growing steadily on the content-creation path.',
     traits:[
       {zh:'沟通力',en:'Communication'},
@@ -486,7 +486,7 @@ en:{
       {id:'dataviz',type:0,img:'dataviz',ref:'Portfolio P3',
         title:'Unwearable Fashion — Data Visualization',
         en:'《搞不懂的审美，穿不了的女装》数据可视化',
-        desc:'A data-viz feature on shrinking women』s sizing — word clouds, scatter and bubble charts, published on the college official account.',
+        desc:'A data-viz feature on shrinking women sizing — word clouds, scatter and bubble charts, published on the college official account.',
         enDesc:'聚焦「女装尺码趋小」议题，以词云、散点、气泡图呈现多维数据洞察，发布于院级官方公众号。',
         detail:'Collected multi-dimensional data — sales share by gender, return reasons, topic heat and size labeling — and visualized the shrinking-size trend through word clouds, scatter and bubble charts. Published on the college official account.',
         enDetail:'通过采集平台男女装销量占比、退货原因、话题热度及店铺尺码标注等多维度数据，以词云图、散点图、气泡图等可视化形式，分析「女装尺码趋小」议题及其衍生影响；最终成果发布于院级官方公众号。',
@@ -506,18 +506,18 @@ en:{
         en:'专题报道《「煤」好生活：山西煤矿，点亮希望之光》',
         role:'Director · Cinematography · Editing',
         roleEn:'导演 / 拍摄 / 后期',
-        desc:'A feature on Yuxian`s coal industry — real footage of miners` lives and industrial transformation, carrying a message of resilience and hope.',
+        desc:'A feature on Yuxian coal industry — real footage of miners lives and industrial transformation, carrying a message of resilience and hope.',
         enDesc:'聚焦阳泉盂县煤矿产业，以真实镜头记录矿工生活与产业变迁，传递奋斗与希望。',
-        detail:'Structured in three parts: data-driven history of the coal industry; documentary interviews with smart-mine staff, Erha Brothers and miners` families; and the transformed face of Yuxian. Research drew on government and industry reports, on-site visits to modern mines and interviews with professionals; directing, cinematography, scripting and editing were self-completed.',
+        detail:'Structured in three parts: data-driven history of the coal industry; documentary interviews with smart-mine staff, Erha Brothers and miners families; and the transformed face of Yuxian. Research drew on government and industry reports, on-site visits to modern mines and interviews with professionals; directing, cinematography, scripting and editing were self-completed.',
         enDetail:'分三部分呈现：以数据与画面回溯煤矿发展历程；结合玉泉煤业智能化工作人员、「二哈兄弟」及矿工家属访谈强化纪实感；最终展现转型后盂县的崭新面貌。前期梳理网站、政府及行业报告夯实调研基础，赴当地与专业人士深度沟通、实地探访新型达标煤矿，后期独立完成拍摄、脚本、构思与剪辑封装。',
         process:'Research → On-site visits → Shooting & editing',
         enProcess:'调研 → 实地探访 → 拍摄剪辑封装'},
       {id:'yunnan',type:1,img:'yunnan',ref:'Portfolio P9',
         title:'H5 A Corner of Yunnan',
         en:'H5《云南一方》',
-        desc:'A cartoon-style, yellow-green H5 long-scroll taking viewers through Kunming, Dali, Shangri-La and Pu』s.',
+        desc:'A cartoon-style, yellow-green H5 long-scroll taking viewers through Kunming, Dali, Shangri-La and Pu er.',
         enDesc:'卡通风格、黄绿主色调的长图 H5，带浏览者云游昆明、大理、香格里拉、普洱。',
-        detail:'Built from extensive image research, this H5 uses a cartoon style with yellow-green tones and a drag-to-scroll layout. Landmark architecture and local food draw viewers in, ethnic-costume characters guide the journey, and concise intros plus practical tips refresh users` impression of Yunnan.',
+        detail:'Built from extensive image research, this H5 uses a cartoon style with yellow-green tones and a drag-to-scroll layout. Landmark architecture and local food draw viewers in, ethnic-costume characters guide the journey, and concise intros plus practical tips refresh users impression of Yunnan.',
         enDetail:'基于大量图片素材分析，采用卡通风格与黄绿主色调，以长图拖动形式呈现。聚焦昆明、大理、香格里拉、普洱等地，通过特色建筑与地道美食吸引浏览者，搭配各地区民族服饰人物引领，普及民族文化认知；辅以简洁文字介绍与实用攻略，帮助用户刷新对云南的印象。',
         process:'Image research → Style direction → Long-scroll design',
         enProcess:'素材分析 → 风格设定 → 长图设计'},
@@ -544,14 +544,14 @@ en:{
         en:'人文风景 · Route 66',
         desc:'Road-trip photography along Route 66 — people, roadside life and desert scenery.',
         enDesc:'公路旅行摄影，记录 66 号公路沿线的人文与风景。',
-        detail:'Shot along America』s Route 66 — motels, desert highways and dusk light, capturing the human warmth of road culture.',
+        detail:'Shot along Americas Route 66 — motels, desert highways and dusk light, capturing the human warmth of road culture.',
         enDetail:'沿美国 66 号公路拍摄的旅行摄影，聚焦沿线汽车旅馆、荒漠公路与黄昏光线，呈现公路文化的人文温度。',
         process:'Road trip → On-the-road shooting → Film grading',
         enProcess:'公路探访 → 沿途抓拍 → 胶片调色'},
       {id:'monk',type:2,img:'monk',ref:'Portfolio P14',
         title:'Human Landscapes · Monk in the Alley',
         en:'人文风景 · 僧人街巷',
-        desc:'Street documentary — a monk`s robe moving through the bustle of an old-town market street.',
+        desc:'Street documentary — a monk robe moving through the bustle of an old-town market street.',
         enDesc:'街头纪实，记录僧袍身影穿行市井街巷的瞬间。',
         detail:'A street-documentary shot tracing a monk through an old-town alley, blending everyday bustle with human warmth.',
         enDetail:'街头纪实摄影，以僧人行走于古城街巷为线索，记录市井烟火与人文气息的交融。',
@@ -684,6 +684,7 @@ function renderHero(){
     `<div class='stats reveal'>`+
       h.stats.map(s=>`<div class='stat'><div class='stat-num'><span data-count='`+s.n+`'>0</span>`+s.unit+`</div><div class='stat-lab'>`+s.lab+` · `+s.en+`</div></div>`).join('')+
     `</div>`+
+    `<div class='scroll-hint'>Scroll</div>`+
   `</div></section>`;
 }
 
@@ -828,6 +829,142 @@ function render(){
   initObservers();
   runCounters();
   closeMobileNav();
+  revealHeroWords();
+  attachCursorHover();
+}
+
+/* ============ podium 风格交互增强 ============ */
+
+/* Lenis 惯性平滑滚动 */
+let lenis = null;
+function initLenis(){
+  if(prefersReduced || typeof Lenis === 'undefined') return;
+  lenis = new Lenis({duration:1.15, easing:(t)=>Math.min(1,1.001-Math.pow(2,-10*t)), smoothWheel:true});
+  function raf(time){ lenis.raf(time); requestAnimationFrame(raf); }
+  requestAnimationFrame(raf);
+  lenis.on('scroll', updateProgress);
+}
+
+/* 自定义光标跟随 */
+function initCursor(){
+  if(window.matchMedia('(hover:none), (pointer:coarse)').matches) return;
+  const cur = document.getElementById('cursor');
+  const dot = document.getElementById('cursor-dot');
+  if(!cur || !dot) return;
+  document.body.classList.add('has-cursor');
+  let mx = -100, my = -100, cx = -100, cy = -100;
+  window.addEventListener('mousemove', e=>{
+    mx = e.clientX; my = e.clientY;
+    dot.style.left = mx+'px'; dot.style.top = my+'px';
+    cur.classList.add('visible'); dot.classList.add('visible');
+  });
+  (function loop(){
+    cx += (mx-cx)*0.16; cy += (my-cy)*0.16;
+    cur.style.left = cx+'px'; cur.style.top = cy+'px';
+    requestAnimationFrame(loop);
+  })();
+  document.addEventListener('mouseleave', ()=>{
+    cur.classList.remove('visible'); dot.classList.remove('visible');
+  });
+}
+
+/* hover 交互元素时光标放大 */
+function attachCursorHover(){
+  const cur = document.getElementById('cursor');
+  if(!cur) return;
+  document.querySelectorAll('a,button,.wk,.fbtn,.lang button,.trait,.ability span').forEach(el=>{
+    el.addEventListener('mouseenter', ()=>cur.classList.add('hovering'));
+    el.addEventListener('mouseleave', ()=>cur.classList.remove('hovering'));
+  });
+}
+
+/* 逐词浮现：把 hero 大标题和 lead 段落的每个词/字包成 span */
+function splitTextToWords(text){
+  const nodes = [];
+  /* 英文按词+空格拆分，中文按字拆分 */
+  const regex = /([\u4e00-\u9fa5\u3000-\u303f\uff00-\uffef]|[a-zA-Z0-9'\u2019&·.-]+|\s+)/g;
+  const matches = text.match(regex) || [];
+  matches.forEach(p=>{
+    if(p === '') return;
+    if(/^\s+$/.test(p)){ nodes.push(document.createTextNode(p)); return; }
+    const s = document.createElement('span');
+    s.className = 'word'; s.textContent = p;
+    nodes.push(s);
+  });
+  return nodes;
+}
+
+function splitWords(el){
+  if(!el || el.dataset.split) return;
+  const nodes = [];
+  function walk(node){
+    node.childNodes.forEach(child=>{
+      if(child.nodeType === 3){
+        splitTextToWords(child.textContent).forEach(n=>nodes.push(n));
+      } else if(child.nodeType === 1){
+        const tag = child.tagName.toLowerCase();
+        if(tag === 'br'){ nodes.push(child.cloneNode()); return; }
+        const wrap = document.createElement(child.tagName);
+        for(const attr of child.attributes) wrap.setAttribute(attr.name, attr.value);
+        walk(child);
+        while(child.firstChild) wrap.appendChild(child.firstChild);
+        nodes.push(wrap);
+      }
+    });
+  }
+  walk(el);
+  el.innerHTML = '';
+  nodes.forEach(n=>el.appendChild(n));
+  el.dataset.split = '1';
+}
+
+function revealHeroWords(){
+  if(prefersReduced) return;
+  const targets = document.querySelectorAll('.hero-name, .about-text .lead, .tagline');
+  targets.forEach((el, idx)=>{
+    splitWords(el);
+    const words = el.querySelectorAll('.word');
+    const io = new IntersectionObserver(es=>{
+      es.forEach(en=>{
+        if(!en.isIntersecting) return;
+        words.forEach((w,i)=> setTimeout(()=>w.classList.add('in'), i*55));
+        io.unobserve(en.target);
+      });
+    }, {threshold:.25});
+    io.observe(el);
+  });
+}
+
+/* Preloader 进度模拟 */
+function initPreloader(){
+  const pre = document.getElementById('preloader');
+  const pct = pre.querySelector('.preloader-pct');
+  let p = 0;
+  const iv = setInterval(()=>{
+    p += Math.random()*22 + 8;
+    if(p >= 100){
+      p = 100;
+      clearInterval(iv);
+      pct.textContent = '100%';
+      setTimeout(()=>{
+        pre.classList.add('done');
+        const ov = document.getElementById('overlay');
+        ov.classList.add('animate');
+        setTimeout(()=>{ ov.style.display = 'none'; }, 1100);
+      }, 350);
+    } else {
+      pct.textContent = Math.round(p)+'%';
+    }
+  }, 130);
+}
+
+/* 滚动进度（兼容 Lenis 与原生） */
+function updateProgress(){
+  const h = document.documentElement;
+  const pct = h.scrollTop / (h.scrollHeight - h.clientHeight) * 100;
+  document.getElementById('progress').style.width = pct+'%';
+  const top = document.getElementById('toTop');
+  if(h.scrollTop > 700){ top.classList.add('show'); } else { top.classList.remove('show'); }
 }
 
 /* ============ 交互 ============ */
@@ -947,17 +1084,28 @@ document.addEventListener('keydown',(ev)=>{
 });
 
 /* 滚动：进度条 + 回到顶部 */
-window.addEventListener('scroll',()=>{
-  const h = document.documentElement;
-  const pct = h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
-  document.getElementById('progress').style.width = pct+'%';
-  const top = document.getElementById('toTop');
-  if(h.scrollTop>700){ top.classList.add('show'); } else { top.classList.remove('show'); }
-},{passive:true});
+window.addEventListener('scroll', updateProgress, {passive:true});
 
 document.getElementById('toTop').addEventListener('click',()=>{
-  window.scrollTo({top:0,behavior: prefersReduced?'auto':'smooth'});
+  if(lenis){ lenis.scrollTo(0, {duration:1.4}); }
+  else{ window.scrollTo({top:0, behavior:prefersReduced?'auto':'smooth'}); }
 });
 
-/* 初始渲染 */
+/* 锚点平滑滚动（Lenis） */
+document.addEventListener('click', ev=>{
+  const a = ev.target.closest('a[href]');
+  if(!a) return;
+  const href = a.getAttribute('href') || '';
+  if(href.charAt(0) !== '#' || href.length < 2) return;
+  const target = document.querySelector(href);
+  if(!target) return;
+  ev.preventDefault();
+  if(lenis){ lenis.scrollTo(target, {offset:-80, duration:1.3}); }
+  else{ target.scrollIntoView({behavior:prefersReduced?'auto':'smooth'}); }
+});
+
+/* 初始渲染 + podium 交互初始化 */
 render();
+initPreloader();
+initLenis();
+initCursor();
