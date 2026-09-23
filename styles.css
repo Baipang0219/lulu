@@ -22,6 +22,14 @@
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
+
+/* ============ Lenis 惯性平滑滚动（podium.global 同款） ============ */
+html.lenis, html.lenis body{height:auto}
+.lenis.lenis-smooth{scroll-behavior:auto !important}
+.lenis.lenis-smooth [data-lenis-prevent]{overscroll-behavior:contain}
+.lenis.lenis-stopped{overflow:hidden}
+.lenis.lenis-smooth iframe{pointer-events:none}
+
 body{
   background:var(--bg);
   color:var(--paper);
@@ -31,7 +39,7 @@ body{
   -webkit-font-smoothing:antialiased;
   overflow-x:hidden;
 }
-/* film grain overlay · 持续位移动画 */
+/* film grain overlay */
 body::after{
   content:"";position:fixed;inset:-50px;z-index:2;pointer-events:none;opacity:.05;
   background-image:url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E");
@@ -216,7 +224,7 @@ h1.hero-name{
   margin-left:auto;font-size:12px;letter-spacing:.14em;color:var(--accent);
   border:1px solid var(--accent-soft);background:var(--accent-soft);padding:5px 13px;border-radius:999px;
 }
-.tl-role{margin-top:4px;font-size:13.5px;letter-spacing:.08em;color:var(--paper-dim)}
+.tl-role{margin-top:4px;font-size:13.5px;letter-spacing:.08em;color:var(--paper)}
 .tl-role b{color:var(--paper);font-weight:500}
 .tl-bullets{margin-top:18px;display:grid;gap:13px}
 .tl-bullets li{
@@ -358,7 +366,7 @@ h1.hero-name{
 .reveal{opacity:0;transform:translateY(26px);transition:opacity .9s var(--ease-out-expo),transform .9s var(--ease-out-expo)}
 .reveal.in{opacity:1;transform:none}
 
-/* ============ Preloader · podium 风格 ============ */
+/* ============ Preloader ============ */
 .preloader{
   position:fixed;inset:0;z-index:9999;background:var(--bg);
   display:flex;align-items:center;justify-content:center;
@@ -379,7 +387,7 @@ h1.hero-name{
   letter-spacing:.02em;
 }
 
-/* ============ 页面过渡遮罩 ============ */
+/* ============ page transition overlay ============ */
 .overlay{
   position:fixed;inset:0;z-index:9997;background:var(--paper);
   transform:scaleY(0);transform-origin:bottom;pointer-events:none;
@@ -390,7 +398,7 @@ h1.hero-name{
   100%{transform:scaleY(0)}
 }
 
-/* ============ 自定义光标 ============ */
+/* ============ custom cursor ============ */
 .cursor{
   position:fixed;top:0;left:0;width:30px;height:30px;border-radius:50%;
   border:1.5px solid var(--paper);pointer-events:none;z-index:9998;
@@ -415,7 +423,7 @@ h1.hero-name{
   .cursor,.cursor-dot{display:none}
 }
 
-/* ============ 逐词浮现动画 ============ */
+/* ============ word reveal animation ============ */
 .word{
   display:inline-block;opacity:0;transform:translateY(22px);
   transition:opacity .7s var(--ease-out-expo),transform .7s var(--ease-out-expo);
@@ -423,7 +431,7 @@ h1.hero-name{
 }
 .word.in{opacity:1;transform:none}
 
-/* ============ Scroll Down 提示 ============ */
+/* ============ Scroll Down hint ============ */
 .scroll-hint{
   position:absolute;bottom:28px;left:50%;transform:translateX(-50%);
   font-size:10px;letter-spacing:.42em;color:var(--paper-dim);text-transform:uppercase;
@@ -441,7 +449,7 @@ h1.hero-name{
   100%{transform:scaleY(0);transform-origin:bottom}
 }
 
-/* ============ 作品 hover 缓动升级 ============ */
+/* ============ portfolio hover easing upgrade ============ */
 .wk-media img{transition:transform 1.1s var(--ease-out-expo)}
 .wk:hover .wk-media img{transform:scale(1.08)}
 .wk{transition:transform .7s var(--ease-out-expo),border-color .5s var(--ease-out-expo),box-shadow .7s var(--ease-out-expo)}
