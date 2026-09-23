@@ -307,7 +307,7 @@ zh:{
       {y:"2022",zh:"“社会活动积极分子”",en:"\"Active Social Participant\""},
       {y:"2023",zh:"“传媒印象”摄影大赛《回家》最佳人气奖",en:"\"Best Popularity Award\", Home — Chuanmei Impression Photo Contest"},
       {y:"2023",zh:"“优秀学生干部”",en:"\"Outstanding Student Cadre\""},
-      {y:"2024",zh:"“优秀共青团干部”",en:"\"Outstanding CYLC Cadre\""},
+      {y:"2024",zh:"“优秀共青团干部”",en:"\"Outstanding CYLC Cadre\"""},
       {y:"2025",zh:"“优秀毕业生”",en:"\"Outstanding Graduate\"""}
     ]
   },
@@ -699,17 +699,21 @@ function renderAbout(){
         '<div class="traits">'+a.traits.map(t=>'<span class="trait">'+t.zh+' <b>'+t.en+'</b></span>').join("")+'</div>'+
       '</div>'+
       '<div class="edu reveal">'+
-        a.edu.map(e=>
-          '<div class="edu-item">'+
+        a.edu.map(e=>{
+          var badge = '';
+          if(e.status){ badge = '<span class="edu-status">'+e.status+' · '+e.statusEn+'</span>'; }
+          var courseBox = '';
+          if(e.courses){ courseBox = '<div class="edu-courses">'+e.courses.map(function(c){return '<span>'+c+'</span>';}).join('')+'</div>'; }
+          return '<div class="edu-item">'+
             '<div class="edu-head">'+
               '<span class="edu-school">'+e.school+'</span>'+
-              (e.status?'<span class="edu-status">'+e.status+' · '+e.statusEn+'</span>':"")+
+              badge+
               '<span class="edu-major">'+e.major+' · '+e.majorEn+'</span>'+
               '<span class="edu-period">'+e.period+'</span>'+
             '</div>'+
-            (e.courses?'<div class="edu-courses">'+e.courses.map(c=>'<span>'+c+'</span>').join("</span></span>'+"<span>").join("")+'</div>":"")+
-          '</div>'
-        ).join("")+
+            courseBox+
+          '</div>';
+        }).join('')+
       '</div>'+
     '</div>'+
   '</div></section>';
@@ -734,15 +738,18 @@ function renderExp(){
 
 function renderCampus(){
   const c = T("campus");
-  const cards = c.items.map(it=>
-    '<div class="cp-card reveal">'+
+  const cards = c.items.map(it=>{
+    var award = '';
+    if(it.award){ award = '<p class="cp-award"><b>'+it.award+'</b><span class="sub">'+it.awardEn+'</span></p>'; }
+    return '<div class="cp-card reveal">'+
       '<span class="cp-badge">'+it.badge+'</span>'+
       '<h4>'+it.title+'</h4>'+
       '<p class="cp-en">'+it.en+'</p>'+
       '<p class="cp-period">'+it.period+'</p>'+
       '<ul>'+it.bullets.map(b=>'<li>'+b[lang]+'<span class="sub">'+b[lang==="zh"?"en":"zh"]+'</span></li>').join("")+'</ul>'+
-      (it.award?'<p class="cp-award"><b>'+it.award+'</b><span class="sub">'+it.awardEn+'</span></p>':"")+
-    '</div>').join("");
+      award+
+    '</div>';
+  }).join('');
   return '<section class="section" id="campus"><div class="container">'+
     '<div class="sec-head reveal"><div class="sec-no">'+c.no+'</div><h2 class="sec-title">'+c.title+'<em>'+c.en+'</em></h2></div>'+
     '<div class="campus-grid">'+cards+'</div>'+
